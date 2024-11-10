@@ -12,7 +12,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: cambio 3s linear infinite;
     background-color: #c8b8e2;
+}
+
+@keyframes cambio {
+    0% {
+        background: #e189f7;
+    }
+    25% {
+        background: #b580f1;
+    }
+    50% {
+        background: #73c0d8;
+    }
+    75% {
+        background: #6bc2b6;
+    }
+    100% {
+        background: #2a6661;
+    }
 }
 
 .container {
@@ -96,6 +115,8 @@ body {
     100% {
         background: #ffffff;
     }
+}
+
 }
 
 
